@@ -1,23 +1,43 @@
+
 {
-  "name": "pos-app",
+  "name": "pos_frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --experimental-https",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.0.0",
-    "quagga": "^0.12.1",
-    "react": "19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "19.0.0-rc-65a56d0e-20241020"
+    "@ericblade/quagga2": "^1.8.4",
+    "@eslint/config-array": "^0.18.0",
+    "@eslint/object-schema": "^2.1.4",
+    "@radix-ui/react-navigation-menu": "^1.2.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "axios": "^1.7.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "eslint": "^8.57.1",
+    "glob": "^11.0.0",
+    "lucide-react": "^0.451.0",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rimraf": "^6.0.1",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-animated": "^1.1.2",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "15.0.0",
+    "@tailwindcss/forms": "^0.5.9",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint-config-next": "14.2.15",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.6.3"
   }
 }
